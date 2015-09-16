@@ -27,13 +27,12 @@ body {
   height: 100%; }
 
 body {
-  background: url("../images/comppattern2.png");
-  font-family: "fira_sansbook"; }
+  font-family: 'helveticaneuethin'; }
 
 /*sticky footer*/
 .wraper {
   min-height: 100%;
-  margin-bottom: -83px; }
+  margin-bottom: -247px; }
 
 .wraper:after {
   content: "";
@@ -41,6 +40,6 @@ body {
 
 .wraper:after,
 .page-footer {
-  height: 80px; }
+  height: 247px; }
 
 /*end of sticky footer*/

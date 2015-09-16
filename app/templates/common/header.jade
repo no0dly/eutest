@@ -1,0 +1,21 @@
+header.page-header
+	.container
+
+		.logo
+			img.logo__img(src="images/logo-top.png", alt="page logo")
+			span.hide site name
+
+		nav.nav
+			ul.nav__list
+				each item in ['Create', 'Explore', 'How it works', 'News', 'About us']
+					li.nav__item
+						a.nav__link(href="#")= item
+
+		.buttons
+			ul.buttons__list
+				li.buttons__item
+					a.buttons__item--search(href="#")
+				li.buttons__item
+					a.buttons__item--sign-in(href="#") Sign in
+				li.buttons__item
+					a.buttons__item--join(href="#") Join us
