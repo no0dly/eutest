@@ -2,8 +2,9 @@ header.page-header
 	.container
 
 		.logo
-			img.logo__img(src="images/logo-top.png", alt="page logo")
-			span.hide site name
+			a.logo__link(href="#")
+				img.logo__img(src="images/logo-top.png", alt="page logo")
+				span.hide site name
 
 		nav.nav
 			ul.nav__list
@@ -14,8 +15,11 @@ header.page-header
 		.buttons
 			ul.buttons__list
 				li.buttons__item
-					a.buttons__item--search(href="#")
+					a.buttons__link.buttons__link--search(href="#")
 				li.buttons__item
-					a.buttons__item--sign-in(href="#") Sign in
+					a.buttons__link.buttons__link--sign-in(href="#") Sign in
 				li.buttons__item
-					a.buttons__item--join(href="#") Join us
+					a.buttons__link.buttons__link--join(href="#") Join us
+	.search
+		form.search__form(action="")
+			input.search__input(type="text" name="page-search")

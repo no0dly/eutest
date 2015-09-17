@@ -1,6 +1,6 @@
 footer.page-footer
-	.container
-		nav.footer-nav
+	nav.footer-nav
+		.container
 			.footer-nav__column
 				h3.footer-nav__title About
 				ul.footer-nav__list
@@ -9,29 +9,29 @@ footer.page-footer
 							a.footer-nav__link(href="#")= item
 
 			.footer-nav__column
-				h3.footer-nav__title Involved
-				ul.footer-nav__list 
+				h3.footer-nav__title Get Involved
+				ul.footer-nav__list
 					each item in ['Work with Us', 'Subscribe for', 'Newsletter', 'Forum']
 						li.footer-nav__item
 							a.footer-nav__link(href="#")= item
 
 			.footer-nav__column
 				h3.footer-nav__title Help Center
-				ul.footer-nav__list 
+				ul.footer-nav__list
 					each item in ['FAQs', 'Contact Us', 'How to Start a', 'Challenge']
 						li.footer-nav__item
 							a.footer-nav__link(href="#")= item
 
 			.footer-nav__column.socials
 				h3.footer-nav__title Connect with Us
-				ul.socials__list 
+				ul.socials__list
 					each item in ['fb', 'tw', 'goo']
 						li.socials__item
 							a(href="#" class="socials__link socials__link--" + item)
-								img.socials__img(src="images/icons/png/"+ item + "-ico.png", alt= item)
+								span.hide= item
 	.copy
 		.container
-			.cpoy__text © 2015  All Rights Reserved
+			.copy__text © 2015  All Rights Reserved
 
 <!-- build:js js/vendor.js --> 
 //bower:js
@@ -41,5 +41,4 @@ footer.page-footer
 
 <!-- build:js js/main.js --> 
 script(src="js/main.js")
-
 <!-- endbuild -->

@@ -16,6 +16,7 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
     <!-- endbuild -->
     <!-- build:js js/modernizr.min.js -->
     <script src="/bower/modernizr/modernizr.js"></script>
@@ -26,7 +27,9 @@
     <div class="wrapper">
       <header class="page-header">
         <div class="container">
-          <div class="logo"><img src="images/logo-top.png" alt="page logo" class="logo__img"><span class="hide">site name</span></div>
+          <div class="logo">
+            <a href="#" class="logo__link"><img src="images/logo-top.png" alt="page logo" class="logo__img"><span class="hide">site name</span></a>
+          </div>
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item"><a href="#" class="nav__link">Create</a></li>
@@ -39,12 +42,17 @@
           <div class="buttons">
             <ul class="buttons__list">
               <li class="buttons__item">
-                <a href="#" class="buttons__item--search"></a>
+                <a href="#" class="buttons__link buttons__link--search"></a>
               </li>
-              <li class="buttons__item"><a href="#" class="buttons__item--sign-in">Sign in</a></li>
-              <li class="buttons__item"><a href="#" class="buttons__item--join">Join us</a></li>
+              <li class="buttons__item"><a href="#" class="buttons__link buttons__link--sign-in">Sign in</a></li>
+              <li class="buttons__item"><a href="#" class="buttons__link buttons__link--join">Join us</a></li>
             </ul>
           </div>
+        </div>
+        <div class="search">
+          <form action="" class="search__form">
+            <input type="text" name="page-search" class="search__input">
+          </form>
         </div>
       </header>
       <section class="slider">
@@ -55,9 +63,9 @@
           </div>
           <div class="slider__title">
             <div class="slider__text">Create & Solve Innovation Challenges Such As:</div>
-            <h2 class="slider__text--main">The Featured Challenge</h2>
+            <h2 class="slider__text slider__text--main">The Featured Challenge</h2>
             <div class="slider__btn">
-              <div class="slider-btn__link">Learn more</div>
+              <div href="#" class="slider-btn__link">Learn more</div>
             </div>
           </div>
           <div class="slider__social">
@@ -283,8 +291,8 @@
       </section>
     </div>
     <footer class="page-footer">
-      <div class="container">
-        <nav class="footer-nav">
+      <nav class="footer-nav">
+        <div class="container">
           <div class="footer-nav__column">
             <h3 class="footer-nav__title">About</h3>
             <ul class="footer-nav__list">
@@ -296,7 +304,7 @@
             </ul>
           </div>
           <div class="footer-nav__column">
-            <h3 class="footer-nav__title">Involved</h3>
+            <h3 class="footer-nav__title">Get Involved</h3>
             <ul class="footer-nav__list">
               <li class="footer-nav__item"><a href="#" class="footer-nav__link">Work with Us</a></li>
               <li class="footer-nav__item"><a href="#" class="footer-nav__link">Subscribe for</a></li>
@@ -316,22 +324,16 @@
           <div class="footer-nav__column socials">
             <h3 class="footer-nav__title">Connect with Us</h3>
             <ul class="socials__list">
-              <li class="socials__item">
-                <a href="#" class="socials__link socials__link--fb"><img src="images/icons/png/fb-ico.png" alt="fb" class="socials__img"></a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="socials__link socials__link--tw"><img src="images/icons/png/tw-ico.png" alt="tw" class="socials__img"></a>
-              </li>
-              <li class="socials__item">
-                <a href="#" class="socials__link socials__link--goo"><img src="images/icons/png/goo-ico.png" alt="goo" class="socials__img"></a>
-              </li>
+              <li class="socials__item"><a href="#" class="socials__link socials__link--fb"><span class="hide">fb</span></a></li>
+              <li class="socials__item"><a href="#" class="socials__link socials__link--tw"><span class="hide">tw</span></a></li>
+              <li class="socials__item"><a href="#" class="socials__link socials__link--goo"><span class="hide">goo</span></a></li>
             </ul>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
       <div class="copy">
         <div class="container">
-          <div class="cpoy__text">© 2015 All Rights Reserved</div>
+          <div class="copy__text">© 2015 All Rights Reserved</div>
         </div>
       </div>
     </footer>
