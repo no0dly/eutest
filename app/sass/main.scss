@@ -8,9 +8,10 @@
 
 /* --------- components --------- */
 
-
-
 @import "components/_common"; // genereal , page header, page footer styles
 @import "components/_slider";
-// @import "components/";
-
+@import "components/_banners";
+@import "components/_cta";
+@import "components/_challenges";
+@import "components/_news";
+@import "components/_sign";

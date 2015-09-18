@@ -1,0 +1,116 @@
+.cta .container {
+	background-color: #fff;
+}
+
+.cta {
+	padding: 50px 0 62px;
+}
+
+.cta__list {
+	margin: 0 0 22px;
+	padding: 0;
+	list-style: none;
+	@include clearfix;
+	position: relative;
+}
+
+.cta__item {
+	float: left;
+	width: 380px;
+	text-align: center;
+}
+
+.cta__title {
+	color: #f36523;
+	font-size: 21px;
+}
+
+.cta__title--prizes {
+	margin-bottom: 18px;
+	&:before {
+		width: 40px;
+		height: 37px;
+		background: url(../images/icons/png/prize-ico.png) no-repeat center;
+	}
+}
+
+.cta__title--dreamers {
+	margin-bottom: 21px;
+	&:before {
+		width: 43px;
+		height: 41px;
+		background: url(../images/icons/png/dreamers-ico.png) no-repeat center;
+	}
+}
+
+.cta__title--prizes,
+.cta__title--dreamers {
+	&:before {
+		content: '';
+		display: block;
+		margin: 0 auto 15px;
+	}
+}
+
+.cta__text {
+	font-size: 60px;
+	color: #444;
+}
+
+.cta__like {
+	position: relative;
+	&:before,
+	&:after {
+		content: '';
+		color: #ececec;
+		display: block;
+		width: 7px;
+		height: 24px;
+		background: url(../images/icons/png/devider.png) no-repeat;
+		position: relative;
+	}
+	&:before {
+		left: 200px;
+
+	}
+	&:after {
+		left: 172px;
+	}
+}
+
+.cta-like__link {
+	width: 41px;
+	height: 41px;
+	display: block;
+	margin: 14px auto 10px;
+}
+
+.cta-like__img {
+	width: 100%;
+}
+
+.cta-like__text {
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 14px;
+}
+
+.join-commun {
+	text-align: center;
+}
+
+.join-commun__link {
+	display: inline-block;
+	padding: 21px 78px;
+	background: #f36523;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'helveticaneuebold';
+	font-size: 17px;
+	text-decoration: none;
+	@include border-radius (3px);
+
+	&:hover {
+		background: #dd5313;
+	}
+}

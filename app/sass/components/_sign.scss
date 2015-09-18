@@ -1,0 +1,75 @@
+.sign {
+	background-image: url('../images/send-bg.png');
+	background-size: cover;
+	height: 335px;
+
+	.container {
+		display: table;
+		text-align: center;
+		height: 100%;
+	}
+}
+
+.sign__content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.sign-title {
+	margin-bottom: 70px;
+}
+
+.sign-title__text {
+	font-size: 36px;
+	color: #fff;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.sign__group {
+	height: 45px;
+	position: relative;
+	width: 450px;
+	display: inline-block;
+}
+
+.sign__input {
+	height: 100%;
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #656567;
+	outline: none;
+	color: #fff;
+	padding-bottom: 17px;
+}
+
+.sing__sbm {
+	position: absolute;
+	background: url(../images/icons/png/send-ico.png);
+	border: none;
+	width: 24px;
+	height: 25px;
+	right: 0;
+	top: 50%;
+	margin-top: -20px;
+
+	&:hover {
+		background: url(../images/icons/png/send-ico-hover.png);
+	}
+}
+
+.sign__input::-webkit-input-placeholder {
+	color: #ffffff;
+	font-size: 14px;
+}
+.sign__input:-moz-placeholder,
+.sign__input::-moz-placeholder {
+	color: #ffffff;
+	font-size: 14px;
+}
+.sign__input:-ms-input-placeholder {
+	color: #ffffff;
+	font-size: 14px;
+}

@@ -1,0 +1,119 @@
+.banners {
+	@include clearfix;
+	background: #f3f3f3;
+	.container {
+		width: 1366px;
+		height: 325px;
+	}
+}
+
+.banners__column {
+	width: 683px;
+	float: left;
+	height: 100%;
+}
+
+.tips {
+	height: 100%;
+	position: relative;
+}
+
+.tips__item {
+	display: none;
+}
+
+.tips__list {
+
+	.active {
+		display: block;
+	}
+}
+
+.tips__list {
+	margin: 0 0 38px;
+	padding: 0;
+	list-style: none;
+	height: 100%;
+}
+
+.tips__item {
+	padding: 60px 110px 0 65px;
+	height: 100%;
+}
+
+.tips-title__text {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 30px;
+}
+
+.tips-content__text {
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+.tips-title {
+	padding: 2px 0 0 50px;
+	margin-bottom: 20px;
+}
+
+.tips-content {
+	padding-left: 50px;
+}
+
+.tips__item--create {
+	background: #27abff;
+
+	.tips-title {
+		background: url('../images/icons/png/create-ico.png') no-repeat 0 0;
+	}
+}
+
+.tips__item--price {
+	background: #f3f3f3;
+
+	.tips-title__text,
+	.tips-content__text {
+		color: #444444;
+	}
+	.tips-title {
+		background: url('../images/icons/png/price-ico.png') no-repeat 0 4px;
+	}
+}
+
+.tips__item--compete{
+	background: #f36523;
+
+	.tips-title {
+		background: url('../images/icons/png/compete-ico.png') no-repeat 0 4px;
+	}
+}
+
+.tips-arrows__link {
+	width: 11px;
+	height: 17px;
+	display: block;
+	position: absolute;
+	bottom: 60px;
+}
+
+.tips-arrows__link--left {
+	background: url('../images/icons/png/arrow-left-tips.png');
+	left: 115px;
+
+	&:hover {
+		background: url('../images/icons/png/arrow-left-tips-hover.png');
+	}
+}
+
+.tips-arrows__link--right {
+	background: url('../images/icons/png/arrow-right-tips.png');
+	left: 149px;
+
+	&:hover {
+		background: url('../images/icons/png/arrow-right-tips-hover.png');
+	}
+}

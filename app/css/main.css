@@ -32,6 +32,9 @@ body {
 body {
   font-family: 'helveticaneue'; }
 
+section {
+  min-width: 1366px; }
+
 .container {
   width: 1140px;
   margin: 0 auto; }
@@ -45,6 +48,45 @@ body {
 .hide {
   position: absolute;
   left: -9999px; }
+
+.challenges__header:before,
+.challenges__header:after,
+.news__header:before,
+.news__header:after {
+  content: "";
+  display: table; }
+
+.challenges__header:after,
+.news__header:after {
+  clear: both; }
+
+.title {
+  float: left;
+  margin: 0 0 17px; }
+
+.title__text {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  color: #222; }
+
+.see-all {
+  float: right;
+  margin-top: 8px; }
+
+.see-all__link {
+  font-size: 11px;
+  color: #fff;
+  padding: 10px;
+  background: #27abff;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+  .see-all__link:hover {
+    background: #1996e6; }
 
 /*sticky footer*/
 .wrapper {
@@ -64,7 +106,8 @@ body {
 /*page - header*/
 .page-header {
   background-color: #202020;
-  height: 68px; }
+  height: 68px;
+  min-width: 1366px; }
 
 .logo {
   float: left;
@@ -181,7 +224,9 @@ body {
 
 /*page - footer*/
 .page-footer {
-  min-width: 1140px; }
+  min-width: 1366px; }
+  .page-footer .container {
+    width: 1140px; }
 
 .footer-nav {
   padding: 20px 0; }
@@ -318,7 +363,7 @@ body {
 
 .slider__title {
   text-align: center;
-  width: 52%;
+  width: 54%;
   margin: auto;
   position: absolute;
   top: 50%;
@@ -343,6 +388,8 @@ body {
   text-transform: uppercase; }
 
 .slider-btn__link {
+  display: block;
+  text-decoration: none;
   width: 161px;
   height: 42px;
   line-height: 42px;
@@ -353,7 +400,8 @@ body {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  background-color: #fff; }
+  background-color: #fff;
+  color: #000; }
   .slider-btn__link:hover {
     color: #fff;
     background-color: #f36523; }
@@ -365,3 +413,436 @@ body {
   position: absolute;
   top: 0;
   right: 0; }
+
+.banners {
+  background: #f3f3f3; }
+  .banners:before,
+  .banners:after {
+    content: "";
+    display: table; }
+  .banners:after {
+    clear: both; }
+  .banners .container {
+    width: 1366px;
+    height: 325px; }
+
+.banners__column {
+  width: 683px;
+  float: left;
+  height: 100%; }
+
+.tips {
+  height: 100%;
+  position: relative; }
+
+.tips__item {
+  display: none; }
+
+.tips__list .active {
+  display: block; }
+
+.tips__list {
+  margin: 0 0 38px;
+  padding: 0;
+  list-style: none;
+  height: 100%; }
+
+.tips__item {
+  padding: 60px 110px 0 65px;
+  height: 100%; }
+
+.tips-title__text {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 30px; }
+
+.tips-content__text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5; }
+
+.tips-title {
+  padding: 2px 0 0 50px;
+  margin-bottom: 20px; }
+
+.tips-content {
+  padding-left: 50px; }
+
+.tips__item--create {
+  background: #27abff; }
+  .tips__item--create .tips-title {
+    background: url("../images/icons/png/create-ico.png") no-repeat 0 0; }
+
+.tips__item--price {
+  background: #f3f3f3; }
+  .tips__item--price .tips-title__text,
+  .tips__item--price .tips-content__text {
+    color: #444444; }
+  .tips__item--price .tips-title {
+    background: url("../images/icons/png/price-ico.png") no-repeat 0 4px; }
+
+.tips__item--compete {
+  background: #f36523; }
+  .tips__item--compete .tips-title {
+    background: url("../images/icons/png/compete-ico.png") no-repeat 0 4px; }
+
+.tips-arrows__link {
+  width: 11px;
+  height: 17px;
+  display: block;
+  position: absolute;
+  bottom: 60px; }
+
+.tips-arrows__link--left {
+  background: url("../images/icons/png/arrow-left-tips.png");
+  left: 115px; }
+  .tips-arrows__link--left:hover {
+    background: url("../images/icons/png/arrow-left-tips-hover.png"); }
+
+.tips-arrows__link--right {
+  background: url("../images/icons/png/arrow-right-tips.png");
+  left: 149px; }
+  .tips-arrows__link--right:hover {
+    background: url("../images/icons/png/arrow-right-tips-hover.png"); }
+
+.cta .container {
+  background-color: #fff; }
+
+.cta {
+  padding: 50px 0 62px; }
+
+.cta__list {
+  margin: 0 0 22px;
+  padding: 0;
+  list-style: none;
+  position: relative; }
+  .cta__list:before,
+  .cta__list:after {
+    content: "";
+    display: table; }
+  .cta__list:after {
+    clear: both; }
+
+.cta__item {
+  float: left;
+  width: 380px;
+  text-align: center; }
+
+.cta__title {
+  color: #f36523;
+  font-size: 21px; }
+
+.cta__title--prizes {
+  margin-bottom: 18px; }
+  .cta__title--prizes:before {
+    width: 40px;
+    height: 37px;
+    background: url(../images/icons/png/prize-ico.png) no-repeat center; }
+
+.cta__title--dreamers {
+  margin-bottom: 21px; }
+  .cta__title--dreamers:before {
+    width: 43px;
+    height: 41px;
+    background: url(../images/icons/png/dreamers-ico.png) no-repeat center; }
+
+.cta__title--prizes:before,
+.cta__title--dreamers:before {
+  content: '';
+  display: block;
+  margin: 0 auto 15px; }
+
+.cta__text {
+  font-size: 60px;
+  color: #444; }
+
+.cta__like {
+  position: relative; }
+  .cta__like:before,
+  .cta__like:after {
+    content: '';
+    color: #ececec;
+    display: block;
+    width: 7px;
+    height: 24px;
+    background: url(../images/icons/png/devider.png) no-repeat;
+    position: relative; }
+  .cta__like:before {
+    left: 200px; }
+  .cta__like:after {
+    left: 172px; }
+
+.cta-like__link {
+  width: 41px;
+  height: 41px;
+  display: block;
+  margin: 14px auto 10px; }
+
+.cta-like__img {
+  width: 100%; }
+
+.cta-like__text {
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 14px; }
+
+.join-commun {
+  text-align: center; }
+
+.join-commun__link {
+  display: inline-block;
+  padding: 21px 78px;
+  background: #f36523;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'helveticaneuebold';
+  font-size: 17px;
+  text-decoration: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+  .join-commun__link:hover {
+    background: #dd5313; }
+
+.challenges {
+  padding: 52px 0;
+  background-color: #f3f3f3; }
+
+.challenges__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: -32px; }
+  .challenges__list:before,
+  .challenges__list:after {
+    content: "";
+    display: table; }
+  .challenges__list:after {
+    clear: both; }
+
+.challenges__item {
+  float: left;
+  width: 261px;
+  margin-left: 32px;
+  margin-bottom: 30px; }
+
+.challenges__link {
+  display: block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; }
+  .challenges__link:hover {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15); }
+  .challenges__link:hover .challenges-title__text {
+    color: #27abff; }
+
+.challenges-content {
+  padding: 0 10px 17px 15px;
+  border-bottom: 1px solid #ddd; }
+
+.challenges-tumb {
+  width: 261px;
+  height: 158px;
+  margin-bottom: 16px; }
+
+.challenges-tumb__img {
+  width: 100%;
+  height: 100%; }
+
+.challenges-title {
+  margin-bottom: 11px; }
+
+.challenges-title__text {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-family: 'helveticaneuebold';
+  font-size: 16px; }
+
+.competitors {
+  margin-bottom: 10px; }
+
+.competitors__text {
+  font-family: 'helveticaneuebold';
+  font-size: 13px;
+  color: #999999; }
+
+.challenges-content__text {
+  font-size: 13px;
+  color: #999999;
+  line-height: 1.5; }
+
+.challenges__footer:before,
+.challenges__footer:after {
+  content: "";
+  display: table; }
+
+.challenges__footer:after {
+  clear: both; }
+
+.challenges-footer__column {
+  width: 50%;
+  float: left;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 8px; }
+
+.challenges-footer__column:first-child {
+  border-right: 1px solid #ddd; }
+
+.challenges-specify {
+  margin-bottom: 10px; }
+
+.challenges-specify__text {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  color: #999999;
+  text-transform: uppercase; }
+
+.challenges-status__text {
+  font-size: 12px;
+  color: #222; }
+
+.challenges-status__text--prize {
+  padding-left: 28px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: -10px;
+  background: url("../images/icons/png/dollar-ico.png") no-repeat 0 6px; }
+
+.news {
+  padding: 56px 0;
+  background-color: #fff; }
+
+.news__list {
+  margin-bottom: 20px; }
+
+.news__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .news__list:before,
+  .news__list:after {
+    content: "";
+    display: table; }
+  .news__list:after {
+    clear: both; }
+
+.news__item {
+  float: left;
+  width: 360px;
+  height: 280px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden; }
+
+.news__item:not(:first-child) {
+  margin-left: 30px; }
+
+.news-tumb {
+  width: 360px;
+  height: 206px; }
+
+.news-tumb__img {
+  width: 100%;
+  height: 100%; }
+
+.news__content {
+  padding: 8px 15px 13px; }
+
+.news-title {
+  margin-bottom: 6px; }
+
+.news-title__text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #222; }
+
+.news-text {
+  font-size: 13px;
+  color: #999; }
+
+.news-text__autor {
+  color: #27abff;
+  text-decoration: none; }
+
+.sign {
+  background-image: url("../images/send-bg.png");
+  background-size: cover;
+  height: 335px; }
+  .sign .container {
+    display: table;
+    text-align: center;
+    height: 100%; }
+
+.sign__content {
+  display: table-cell;
+  vertical-align: middle; }
+
+.sign-title {
+  margin-bottom: 70px; }
+
+.sign-title__text {
+  font-size: 36px;
+  color: #fff;
+  font-weight: normal;
+  margin: 0;
+  padding: 0; }
+
+.sign__group {
+  height: 45px;
+  position: relative;
+  width: 450px;
+  display: inline-block; }
+
+.sign__input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #656567;
+  outline: none;
+  color: #fff;
+  padding-bottom: 17px; }
+
+.sing__sbm {
+  position: absolute;
+  background: url(../images/icons/png/send-ico.png);
+  border: none;
+  width: 24px;
+  height: 25px;
+  right: 0;
+  top: 50%;
+  margin-top: -20px; }
+  .sing__sbm:hover {
+    background: url(../images/icons/png/send-ico-hover.png); }
+
+.sign__input::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 14px; }
+
+.sign__input:-moz-placeholder,
+.sign__input::-moz-placeholder {
+  color: #ffffff;
+  font-size: 14px; }
+
+.sign__input:-ms-input-placeholder {
+  color: #ffffff;
+  font-size: 14px; }

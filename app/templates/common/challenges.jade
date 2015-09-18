@@ -4,25 +4,32 @@ section.challenges
 			.title
 				h2.title__text Explore the Challenges
 			.see-all
-				a.see-all__link(href="#")
+				a.see-all__link(href="#") see all
 
 		ul.challenges__list
 			each item in ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth']
 				li.challenges__item
 					a.challenges__link(href="#")
-						.challenges__main
-							img.challenges-link__img(src="images/" + item + "-post-img.png", alt="post img")
-							h2.challenges-link__title The Rockefeller Foundation Storytelling Challenge
-							.challenges-link__competitors competitors
-								span.challenges-link__competitors-count 167
-							.challenges-link__text A challenge to spur Rockefeller Foundation non-profit grantees to share the impact they have had on individuals, communities and the world best ...
+						.challenges-tumb
+							img.challenges-tumb__img(src="images/" + item + "-post-img.png", alt="post img")
+						.challenges-content
+							.challenges-title
+								h2.challenges-title__text The Rockefeller Foundation Storytelling Challenge
+							.competitors
+								.competitors__text competitors
+									span.competitors__counter  167
+							.challenges-content__text A challenge to spur Rockefeller Foundation non-profit grantees to share the impact they have had on individuals, communities and the world best ...
 						.challenges__footer
 							.challenges-footer__column
-								h3.challenges-footer__title status
-								.challenges-footer__text.challenges-footer__text--prize Fund the Prize
+								.challenges-specify
+									h3.challenges-specify__text status
+								.challenges-status
+									.challenges-status__text.challenges-status__text--prize Fund the Prize
 							.challenges-footer__column
-								h3.challenges-footer__title goal
-								.challenges-footer__text $5,000
+								.challenges-specify
+									h3.challenges-specify__text goal
+								.challenges-status
+									.challenges-status__text $5,000
 
 
 
