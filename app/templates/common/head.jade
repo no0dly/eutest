@@ -7,8 +7,8 @@ head
 	meta(name="keywords", content="")
 	meta(name="author", content="Vadim D.")
 	
-	link(rel="shortcut icon", href="/favicon.ico", type="icon/x-icon")
-	link(rel="icon", href="/favicon.ico", type="icon/x-icon")
+	link(rel="shortcut icon", href="favicon.ico", type="icon/x-icon")
+	link(rel="icon", href="favicon.ico", type="icon/x-icon")
 	
 	<!-- build:css css/vendor.min.css -->
 	// bower:css
@@ -23,3 +23,7 @@ head
 	<!-- build:js js/modernizr.min.js -->
 	script(src='/bower/modernizr/modernizr.js')
 	<!-- endbuild -->
+
+	<!-- [if IE 8] -->
+	script(src="//cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js")
+	<![endif]-->

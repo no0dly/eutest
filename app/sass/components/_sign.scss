@@ -43,21 +43,7 @@
 	outline: none;
 	color: #fff;
 	padding-bottom: 17px;
-}
-
-.sing__sbm {
-	position: absolute;
-	background: url(../images/icons/png/send-ico.png);
-	border: none;
-	width: 24px;
-	height: 25px;
-	right: 0;
-	top: 50%;
-	margin-top: -20px;
-
-	&:hover {
-		background: url(../images/icons/png/send-ico-hover.png);
-	}
+	padding-right: 26px;
 }
 
 .sign__input::-webkit-input-placeholder {
@@ -73,3 +59,4 @@
 	color: #ffffff;
 	font-size: 14px;
 }
+

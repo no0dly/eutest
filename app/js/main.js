@@ -3,22 +3,20 @@ var app = (function(){
 
 	function _setUpListeners() {
 		var
-			search = document.getElementsByClassName('buttons__link--search');
-
-		search[0].onclick = _topSearch;
+			search = document.getElementById('search-btn');
+		search.onclick = _topSearch;
 
 	}
 
 	function _topSearch(e) {
 		var
-			modal = document.getElementsByClassName('search');
-			// console.log(modal[0].classList.contains('active'));
+			modal = document.getElementById('page-search');
 		if(!this.classList.contains('active')) {
 			this.classList.add('active');
-			modal[0].style.display = 'block';
+			modal.style.display = 'block';
 		} else {
 			this.classList.remove('active');
-			modal[0].style.display = 'none';
+			modal.style.display = 'none';
 		}
 	}
 

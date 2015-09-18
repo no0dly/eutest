@@ -66,10 +66,6 @@
 
 .tips__item--create {
 	background: #27abff;
-
-	.tips-title {
-		background: url('../images/icons/png/create-ico.png') no-repeat 0 0;
-	}
 }
 
 .tips__item--price {
@@ -79,41 +75,9 @@
 	.tips-content__text {
 		color: #444444;
 	}
-	.tips-title {
-		background: url('../images/icons/png/price-ico.png') no-repeat 0 4px;
-	}
 }
 
 .tips__item--compete{
 	background: #f36523;
-
-	.tips-title {
-		background: url('../images/icons/png/compete-ico.png') no-repeat 0 4px;
-	}
 }
 
-.tips-arrows__link {
-	width: 11px;
-	height: 17px;
-	display: block;
-	position: absolute;
-	bottom: 60px;
-}
-
-.tips-arrows__link--left {
-	background: url('../images/icons/png/arrow-left-tips.png');
-	left: 115px;
-
-	&:hover {
-		background: url('../images/icons/png/arrow-left-tips-hover.png');
-	}
-}
-
-.tips-arrows__link--right {
-	background: url('../images/icons/png/arrow-right-tips.png');
-	left: 149px;
-
-	&:hover {
-		background: url('../images/icons/png/arrow-right-tips-hover.png');
-	}
-}

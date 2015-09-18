@@ -1,0 +1,212 @@
+/*icons for header*/
+
+.buttons__link--search {
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+	height: 68px;
+	width: 44px;
+	background-image: url('../images/icons/png/spritesheet.png');
+	background-repeat: no-repeat;
+	background-position: -45px -2804px;
+}
+
+.buttons__item {
+	.active {
+		background-color: #2a2a2a;
+		background-position: -45px -580px;
+	}
+}
+
+.search__input {
+	width: 586px;
+	height: 32px;
+	@include border-radius(3px);
+	background-color: #fff;
+	background-image: url('../images/icons/png/spritesheet.png');
+	background-repeat: no-repeat;
+	background-position: -38px -2958px;
+	padding-left: 40px;
+	border: none;
+}
+
+/*icons for slider*/
+
+.slider__arrow {
+	width: 60px;
+	height: 60px;
+	background-color: rgba(0,0,0, .5);
+	background-image: url('../images/icons/png/spritesheet.png');
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+
+	&:hover {
+		background-color: rgba(0,0,0, 1);
+		transition: 0.6s;
+	}
+}
+
+.slider__arrow--left {
+	background-position: -40px -3372px;
+	left: 0;
+}
+
+.slider__arrow--right {
+	background-position: -35px -3515px;
+	right: 0;
+}
+
+.no-rgba .slider__arrow--left {
+	background-position: -60px -2001px;
+}
+
+.no-rgba .slider__arrow--right {
+	background-position: -60px -2181px;
+}
+
+/*icons for banners*/
+
+.tips-title {
+	background-image: url('../images/icons/png/spritesheet.png');
+	background-repeat: no-repeat;
+}
+
+.tips__item--create {
+
+	.tips-title {
+		background-position: -60px -891px;
+	}
+}
+
+.tips__item--price {
+
+	.tips-title {
+		background-position: -60px -2518px;
+	}
+}
+
+.tips__item--compete{
+
+	.tips-title {
+		background-position: -60px -735px;
+	}
+}
+
+
+.tips-arrows__link {
+	width: 11px;
+	height: 17px;
+	display: block;
+	position: absolute;
+	bottom: 60px;
+	background-image: url('../images/icons/png/spritesheet.png');
+	background-repeat: no-repeat;
+}
+
+.tips-arrows__link--left {
+	background-position: -60px -60px;
+	left: 115px;
+
+	&:hover {
+		background-position: -60px -197px;
+	}
+}
+
+.tips-arrows__link--right {
+	background-position: -60px -334px;
+	left: 149px;
+
+	&:hover {
+		background-position: -60px -471px;
+	}
+}
+
+/*icons for cta*/
+.cta__title--prizes,
+.cta__title--dreamers {
+	&:before {
+		background-image: url(../images/icons/png/spritesheet.png);
+		background-repeat: no-repeat;
+	}
+}
+
+.cta__title--prizes {
+	&:before {
+		width: 40px;
+		height: 37px;
+		background-position: -60px -2674px;
+	}
+}
+.cta__title--dreamers {
+	&:before {
+		width: 43px;
+		height: 41px;
+		background-position: -60px -1188px;
+	}
+}
+
+/*icons for challenges*/
+
+.challenges-status__text--prize {
+	padding-left: 28px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: -10px;
+	background-image: url('../images/icons/png/spritesheet.png');
+	background-repeat: no-repeat;
+	background-position: -60px -1042px;
+}
+
+/*icons for sign*/
+
+.sing__sbm {
+	position: absolute;
+	border: none;
+	right: 0;
+	top: 50%;
+	margin-top: -20px;
+	width: 24px;
+	height: 25px;
+	background-color: transparent;
+	background-image: url(../images/icons/png/spritesheet.png);
+	background-repeat: no-repeat;
+	background-position: -60px -3101px;
+	&:hover {
+		background-position: -60px -3246px;
+	}
+}
+
+/*social*/
+
+.socials__link {
+	width: 43px;
+	height: 43px;
+	@include border-radius(50%);
+	display: block;
+	background-image: url('../images/icons/png/spritesheet.png');
+	background-repeat: no-repeat;
+}
+
+.socials__link--fb {
+	background-position: -60px -1349px;
+
+	&:hover {
+		background-position: -60px -1512px;
+	}
+}
+
+.socials__link--tw {
+	background-position: -60px -3677px;
+	&:hover {
+		background-position: -60px -3840px;
+	}
+}
+
+.socials__link--goo {
+	background-position: -60px -1675px;
+	&:hover {
+		background-position: -60px -1838px;
+	}
+}

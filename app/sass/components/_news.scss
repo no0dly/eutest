@@ -23,8 +23,12 @@
 	overflow: hidden;
 }
 
-.news__item:not(:first-child) {
+.news__item {
 	margin-left: 30px;
+}
+
+.news__item:first-child {
+	margin-left: 0;
 }
 
 .news-tumb {
