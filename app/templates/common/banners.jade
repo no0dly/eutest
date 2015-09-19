@@ -2,11 +2,17 @@ section.banners
 	.container
 		.banners__column
 			.banners__video
-				iframe(width="683" height="325" src="https://www.youtube.com/embed/VBmMU_iwe6U" frameborder="0" allowfullscreen)
+				a.video-player(href="#")
+					.video-player__tumb
+						img.video-player__img(src="images/video-tumb.png", alt="video tumb")
+					.video-player-title
+						.video-player-title__text The title of the video
+					.video-player__btn
+					
 		.banners__column
 			.tips
 				ul.tips__list
-					li.tips__item.tips__item--create
+					li.tips__item.tips__item--create.active
 						.tips-title
 							h3.tips-title__text Create
 						.tips-content
@@ -18,13 +24,13 @@ section.banners
 						.tips-content
 							.tips-content__text If your challenge is not sponsored, we provide you with the tools to get it funded. We have experts in online promotion and content production and can help chart your journey to a fully funded challenge
 
-					li.tips__item.tips__item--compete.active
+					li.tips__item.tips__item--compete
 						.tips-title
 							h3.tips-title__text Compete
 						.tips-content
 							.tips-content__text Innovators from all over the world use HeroX to find challenges in which to compete - to create breakthroughs in technology, health, education, economies and communities, and win prizes up to $1 million
 
 				.tips-arrows
-					a.tips-arrows__link.tips-arrows__link--left
-					a.tips-arrows__link.tips-arrows__link--right
+					a#tips-left.tips-arrows__link.tips-arrows__link--left
+					a#tips-right.tips-arrows__link.tips-arrows__link--right
 

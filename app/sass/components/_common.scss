@@ -116,7 +116,6 @@ section {
 	@include clearfix;
 	list-style: none;
 	line-height: 68px;
-
 }
 
 .nav__item {
@@ -202,12 +201,8 @@ section {
 	z-index: 1;
 }
 
-.search__input {
-	width: 586px;
-	height: 32px;
-	@include border-radius(3px);
-	background: #fff url('../images/icons/png/search-mod-ico.png') no-repeat 20px center;
-	padding-left: 40px;
+.no-csstransitions .search__input {
+	line-height: 28px;
 }
 
 /*page - footer*/
