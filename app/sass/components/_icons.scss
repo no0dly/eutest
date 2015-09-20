@@ -40,7 +40,7 @@
 	display: block;
 	position: absolute;
 	top: 50%;
-	margin-top: -30px;
+	margin-top: -50px;
 
 	&:hover {
 		background-color: rgba(0,0,0, 1);
@@ -163,8 +163,8 @@
 
 .challenges-status__text--prize {
 	padding-left: 28px;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 4px;
+	padding-top: 8px;
 	margin-top: -10px;
 	background-image: url('../images/icons/png/spritesheet.png');
 	background-repeat: no-repeat;

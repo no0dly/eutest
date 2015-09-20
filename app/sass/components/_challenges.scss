@@ -1,5 +1,5 @@
 .challenges {
-	padding: 52px 0;
+	padding: 46px 0;
 	background-color: #f3f3f3;
 }
 
@@ -42,14 +42,14 @@
 }
 
 .challenges-content {
-	padding: 0 10px 17px 15px;
+	padding: 0 10px 10px 15px;
 	border-bottom: 1px solid #ddd;
 }
 
 .challenges-tumb {
 	width: 261px;
 	height: 158px;
-	margin-bottom: 16px;
+	margin-bottom: 12px;
 }
 
 .challenges-tumb__img {
@@ -58,19 +58,20 @@
 }
 
 .challenges-title {
-	margin-bottom: 11px;
+	margin-bottom: 8px;
 }
 
 .challenges-title__text {
 	margin: 0;
 	padding: 0;
 	color: #222;
-	font-family: 'helveticaneuebold';
+	font-family: 'helveticaneue';
 	font-size: 16px;
+	line-height: 1.2;
 }
 
 .competitors {
-	margin-bottom: 10px;
+	margin-bottom: 6px;
 }
 
 .competitors__text {
@@ -90,19 +91,20 @@
 }
 
 .challenges-footer__column {
-	width: 50%;
+	width: 126px;
 	float: left;
 	padding-left: 15px;
-	padding-top: 10px;
+	padding-top: 6px;
 	padding-bottom: 8px;
 }
 
 .challenges-footer__column:first-child {
+	width: 135px;
 	border-right: 1px solid #ddd;
 }
 
 .challenges-specify {
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 }
 
 .challenges-specify__text {
@@ -111,10 +113,16 @@
 	font-size: 10px;
 	color: #999999;
 	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.challenges-status {
+	margin-top: -2px;
 }
 
 .challenges-status__text {
 	font-size: 12px;
 	color: #222;
+	font-weight: bolder;
 }
 

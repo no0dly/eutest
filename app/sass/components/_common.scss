@@ -33,7 +33,7 @@ section {
 
 .title {
 	float: left;
-	margin: 0 0 17px;
+	margin: 0 0 15px;
 }
 
 .title__text {
@@ -41,6 +41,7 @@ section {
 	padding: 0;
 	font-size: 36px;
 	color: #222;
+	font-weight: normal;
 }
 .see-all {
 	float: right;
@@ -50,7 +51,7 @@ section {
 .see-all__link {
 	font-size: 11px;
 	color: #fff;
-	padding: 10px;
+	padding: 7px 12px;
 	background: #27abff;
 	text-decoration: none;
 	display: inline-block;
@@ -123,7 +124,7 @@ section {
 }
 
 .nav__item {
-	margin-left: 70px;
+	margin-left: 69px;
 }
 
 .nav__item:first-child {
@@ -158,7 +159,7 @@ section {
 }
 
 .buttons__item {
-	margin-left: 25px;
+	margin-left: 20px;
 }
 
 .buttons__item:first-child {
@@ -169,6 +170,7 @@ section {
 	color: #fff;
 	text-decoration: none;
 	display: block;
+	font-size: 14px;
 }
 
 
@@ -180,7 +182,7 @@ section {
 
 .buttons__link--join {
 	background-color: #f36523;
-	padding: 10px 31px;
+	padding: 9px 32px 8px 31px;
 	@include border-radius(3px);
 	text-transform: uppercase;
 	&:hover {
@@ -216,7 +218,7 @@ section {
 
 .footer-nav {
 	@include clearfix;
-	padding: 20px 0;
+	padding: 24px 0;
 }
 
 .footer-nav__list,
@@ -233,7 +235,7 @@ section {
 }
 
 .footer-nav__column {
-	margin-left: 95px;
+	margin-left: 92px;
 }
 
 .footer-nav__column:first-child {
@@ -251,7 +253,8 @@ section {
 	font-size: 18px;
 	font-family: 'helveticaneuemedium';
 	color: #fff;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
+	font-weight: normal;
 }
 
 .footer-nav__column .footer-nav__title {
@@ -260,7 +263,7 @@ section {
 		display: block;
 		width: 100%;
 		height: 1px;
-		margin-top: 13px;
+		margin-top: 8px;
 		background-color: #333436;
 	}
 }
@@ -272,7 +275,7 @@ section {
 }
 
 .socials .footer-nav__title {
-	margin-bottom: 20px;
+	margin-bottom: 14px;
 }
 
 .footer-nav__item {
@@ -280,7 +283,7 @@ section {
 }
 
 .footer-nav__link {
-	color: #fff;
+	color: #ddd;
 	font-size: 14px;
 	text-decoration: none;
 	display: block;
@@ -292,7 +295,7 @@ section {
 
 .socials__item {
 	float: left;
-	margin-right: 19px;
+	margin-right: 20px;
 }
 
 

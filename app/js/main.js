@@ -38,13 +38,17 @@ var app = (function() {
 			e.preventDefault();
 		}
 		var 
-			imgArr 	= ['first', 'second'],
-			mainImg = document.querySelector('.slider'),
-			imgUrl	= mainImg.style.backgroundImage,
+			firstSlide 	= "../images/first-slide.png",
+			secondSlide = "../images/second-slide.png",
+			mainImg 	= document.querySelector('.slider'),
 			newUrl;
 
-		console.log(mainImg);
-		console.log(imgUrl);
+		if( mainImg.style.backgroundImage.search('second') !== -1 ) {
+			mainImg.style.backgroundImage = 'url(../images/'+ 'first' + '-slide.png)';
+		} else {
+			mainImg.style.backgroundImage = 'url(/images/'+ 'second' + '-slide.png)';
+
+		}
 	}
 
 

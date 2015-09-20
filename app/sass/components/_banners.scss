@@ -46,6 +46,7 @@
 	padding: 0;
 	color: #fff;
 	font-size: 30px;
+	font-weight: normal;
 }
 
 .tips-content__text {
@@ -56,12 +57,12 @@
 }
 
 .tips-title {
-	padding: 2px 0 0 50px;
+	padding: 2px 0 0 48px;
 	margin-bottom: 20px;
 }
 
 .tips-content {
-	padding-left: 50px;
+	padding-left: 48px;
 }
 
 .tips__item--create {
@@ -98,7 +99,7 @@
 
 .video-player-title {
 	position: absolute;
-	top: 111px;
+	top: 106px;
 	left: 50%;
 	margin-left: -105px;
 }

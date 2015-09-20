@@ -62,13 +62,14 @@ section {
 
 .title {
   float: left;
-  margin: 0 0 17px; }
+  margin: 0 0 15px; }
 
 .title__text {
   margin: 0;
   padding: 0;
   font-size: 36px;
-  color: #222; }
+  color: #222;
+  font-weight: normal; }
 
 .see-all {
   float: right;
@@ -77,7 +78,7 @@ section {
 .see-all__link {
   font-size: 11px;
   color: #fff;
-  padding: 10px;
+  padding: 7px 12px;
   background: #27abff;
   text-decoration: none;
   display: inline-block;
@@ -142,7 +143,7 @@ section {
   float: left; }
 
 .nav__item {
-  margin-left: 70px; }
+  margin-left: 69px; }
 
 .nav__item:first-child {
   margin-left: 0; }
@@ -175,7 +176,7 @@ section {
   vertical-align: middle; }
 
 .buttons__item {
-  margin-left: 25px; }
+  margin-left: 20px; }
 
 .buttons__item:first-child {
   margin-left: 0; }
@@ -183,14 +184,15 @@ section {
 .buttons__link {
   color: #fff;
   text-decoration: none;
-  display: block; }
+  display: block;
+  font-size: 14px; }
 
 .buttons__link--sign-in:hover {
   color: #f3621f; }
 
 .buttons__link--join {
   background-color: #f36523;
-  padding: 10px 31px;
+  padding: 9px 32px 8px 31px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -220,7 +222,7 @@ section {
     width: 1140px; }
 
 .footer-nav {
-  padding: 20px 0; }
+  padding: 24px 0; }
   .footer-nav:before,
   .footer-nav:after {
     content: "";
@@ -248,7 +250,7 @@ section {
   width: 200px; }
 
 .footer-nav__column {
-  margin-left: 95px; }
+  margin-left: 92px; }
 
 .footer-nav__column:first-child {
   margin-left: 0; }
@@ -263,27 +265,28 @@ section {
   font-size: 18px;
   font-family: 'helveticaneuemedium';
   color: #fff;
-  margin-bottom: 15px; }
+  margin-bottom: 12px;
+  font-weight: normal; }
 
 .footer-nav__column .footer-nav__title:after {
   content: '';
   display: block;
   width: 100%;
   height: 1px;
-  margin-top: 13px;
+  margin-top: 8px;
   background-color: #333436; }
 
 .socials .footer-nav__title:after {
   display: none; }
 
 .socials .footer-nav__title {
-  margin-bottom: 20px; }
+  margin-bottom: 14px; }
 
 .footer-nav__item {
   margin-bottom: 8px; }
 
 .footer-nav__link {
-  color: #fff;
+  color: #ddd;
   font-size: 14px;
   text-decoration: none;
   display: block; }
@@ -292,7 +295,7 @@ section {
 
 .socials__item {
   float: left;
-  margin-right: 19px; }
+  margin-right: 20px; }
 
 .copy {
   background-color: #000;
@@ -306,7 +309,9 @@ section {
 
 .slider {
   height: 517px;
-  background: #f3f3f3 url("../images/first-slide.png") no-repeat;
+  background-color: #f3f3f3;
+  background-image: url("../images/first-slide.png");
+  background-repeat: no-repeat;
   background-size: cover; }
   .slider .container {
     position: relative;
@@ -321,7 +326,7 @@ section {
   width: 54%;
   margin: auto;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -333,7 +338,8 @@ section {
 
 .slider__text {
   background: rgba(0, 0, 0, 0.8);
-  padding: 8px 10px 11px 10px;
+  padding: 6px 10px 5px 10px;
+  letter-spacing: 0.7px;
   color: #fff;
   margin: 0 0 4px;
   display: inline-block;
@@ -343,7 +349,7 @@ section {
   background: #000; }
 
 .slider__text--main {
-  padding: 10px 40px 11px 40px;
+  padding: 2px 16px;
   margin-bottom: 16px;
   font-size: 36px;
   font-family: 'helveticaneuebold';
@@ -417,7 +423,8 @@ section {
   margin: 0;
   padding: 0;
   color: #fff;
-  font-size: 30px; }
+  font-size: 30px;
+  font-weight: normal; }
 
 .tips-content__text {
   color: #fff;
@@ -426,11 +433,11 @@ section {
   line-height: 1.5; }
 
 .tips-title {
-  padding: 2px 0 0 50px;
+  padding: 2px 0 0 48px;
   margin-bottom: 20px; }
 
 .tips-content {
-  padding-left: 50px; }
+  padding-left: 48px; }
 
 .tips__item--create {
   background: #27abff; }
@@ -458,7 +465,7 @@ section {
 
 .video-player-title {
   position: absolute;
-  top: 111px;
+  top: 106px;
   left: 50%;
   margin-left: -105px; }
 
@@ -472,10 +479,10 @@ section {
   background-color: #fff; }
 
 .cta {
-  padding: 50px 0 62px; }
+  padding: 54px 0 62px; }
 
 .cta__list {
-  margin: 0 0 22px;
+  margin: 0 0 16px;
   padding: 0;
   list-style: none;
   position: relative; }
@@ -488,24 +495,28 @@ section {
 
 .cta__item {
   float: left;
-  width: 380px;
+  width: 374px;
   text-align: center; }
+
+.cta__item:first-child {
+  width: 380px; }
 
 .cta__title {
   color: #f36523;
-  font-size: 21px; }
-
-.cta__title--prizes {
-  margin-bottom: 18px; }
-
-.cta__title--dreamers {
-  margin-bottom: 21px; }
+  font-size: 21px;
+  margin-bottom: 6px; }
 
 .cta__title--prizes:before,
 .cta__title--dreamers:before {
   content: '';
   display: block;
-  margin: 0 auto 15px; }
+  margin: 0 auto 12px; }
+
+.cta__title--prizes:before {
+  margin: 0 auto 12px; }
+
+.cta__title--dreamers:before {
+  margin: 0 auto 8px; }
 
 .cta__text {
   font-size: 60px;
@@ -523,15 +534,15 @@ section {
     background: url(../images/icons/png/devider.png) no-repeat;
     position: relative; }
   .cta__like:before {
-    left: 200px; }
+    left: 196px; }
   .cta__like:after {
-    left: 172px; }
+    left: 168px; }
 
 .cta-like__link {
   width: 41px;
   height: 41px;
   display: block;
-  margin: 14px auto 10px; }
+  margin: 14px auto 6px; }
 
 .cta-like__img {
   width: 100%; }
@@ -560,7 +571,7 @@ section {
     background: #dd5313; }
 
 .challenges {
-  padding: 52px 0;
+  padding: 46px 0;
   background-color: #f3f3f3; }
 
 .challenges__list {
@@ -603,30 +614,31 @@ section {
     color: #27abff; }
 
 .challenges-content {
-  padding: 0 10px 17px 15px;
+  padding: 0 10px 10px 15px;
   border-bottom: 1px solid #ddd; }
 
 .challenges-tumb {
   width: 261px;
   height: 158px;
-  margin-bottom: 16px; }
+  margin-bottom: 12px; }
 
 .challenges-tumb__img {
   width: 100%;
   height: 100%; }
 
 .challenges-title {
-  margin-bottom: 11px; }
+  margin-bottom: 8px; }
 
 .challenges-title__text {
   margin: 0;
   padding: 0;
   color: #222;
-  font-family: 'helveticaneuebold';
-  font-size: 16px; }
+  font-family: 'helveticaneue';
+  font-size: 16px;
+  line-height: 1.2; }
 
 .competitors {
-  margin-bottom: 10px; }
+  margin-bottom: 6px; }
 
 .competitors__text {
   font-family: 'helveticaneuebold';
@@ -647,31 +659,37 @@ section {
   clear: both; }
 
 .challenges-footer__column {
-  width: 50%;
+  width: 126px;
   float: left;
   padding-left: 15px;
-  padding-top: 10px;
+  padding-top: 6px;
   padding-bottom: 8px; }
 
 .challenges-footer__column:first-child {
+  width: 135px;
   border-right: 1px solid #ddd; }
 
 .challenges-specify {
-  margin-bottom: 10px; }
+  margin-bottom: 8px; }
 
 .challenges-specify__text {
   margin: 0;
   padding: 0;
   font-size: 10px;
   color: #999999;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: bolder; }
+
+.challenges-status {
+  margin-top: -2px; }
 
 .challenges-status__text {
   font-size: 12px;
-  color: #222; }
+  color: #222;
+  font-weight: bolder; }
 
 .news {
-  padding: 56px 0;
+  padding: 50px 0;
   background-color: #fff; }
 
 .news__list {
@@ -696,7 +714,8 @@ section {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 34px; }
 
 .news__item {
   margin-left: 30px; }
@@ -746,7 +765,8 @@ section {
   vertical-align: middle; }
 
 .sign-title {
-  margin-bottom: 70px; }
+  margin-bottom: 68px;
+  margin-top: -16px; }
 
 .sign-title__text {
   font-size: 36px;
@@ -822,7 +842,7 @@ section {
   display: block;
   position: absolute;
   top: 50%;
-  margin-top: -30px; }
+  margin-top: -50px; }
   .slider__arrow:hover {
     background-color: black;
     transition: 0.6s; }
@@ -906,8 +926,8 @@ section {
 /*icons for challenges*/
 .challenges-status__text--prize {
   padding-left: 28px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 4px;
+  padding-top: 8px;
   margin-top: -10px;
   background-image: url("../images/icons/png/spritesheet.png");
   background-repeat: no-repeat;
