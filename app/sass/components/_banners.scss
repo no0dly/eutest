@@ -10,7 +10,7 @@
 .banners__column {
 	width: 683px;
 	float: left;
-	height: 100%;
+	height: 325px;
 }
 
 .tips {
@@ -28,7 +28,6 @@
 		display: block;
 	}
 }
-
 .tips__list {
 	margin: 0 0 38px;
 	padding: 0;
@@ -39,6 +38,8 @@
 .tips__item {
 	padding: 60px 110px 0 65px;
 	height: 100%;
+	float: left;
+	width: 683px;
 }
 
 .tips-title__text {
